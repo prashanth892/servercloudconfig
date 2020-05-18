@@ -1,0 +1,13 @@
+--- 
+subscriber: 
+  jms: 
+    config: 
+      JMS_CONNECTION_FACTORY: fxClientUID=S.1590.SUB.EXCEPTION.1590.WTC.CF.L2.01
+      JMS_DESTINATION: FXGIPC.RATING.DAILY.EXCEPTION.1590
+      JMS_DESTINATION_TYPE: DYNAMIC_QUEUE
+      JMS_INITIAL_CONTEXT: com.fedex.mi.decorator.jms.FedexTibcoInitialContext
+      JMS_PASSWORD: PdV6U8oy1AYBl5xjjXDilfumt
+      JMS_URL: "ldap://apptstldap.corp.fedex.com:389/ou=messaging,dc=corp,dc=fedex,dc=com"
+      JMS_USERNAME: GRI-1590
+      MESSAGE_PROCESSOR: com.fedex.app3536444.er.jms.listener.ErrorMessageListner
+      NUM_CONCURRENT_CONSUMERS: 1
